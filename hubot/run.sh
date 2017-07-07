@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ENV=../.data/env.$1
+ENV=../.data/env.${1:-vue}
 LOG=logs/log-$1-$(date +%Y-%m-%dT%H%M%S).txt
 HUBOT_DIR=.
 

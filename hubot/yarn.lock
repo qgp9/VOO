@@ -168,7 +168,7 @@ co@^4.6.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/co/-/co-4.6.0.tgz#6ea6bdf3d853ae54ccb8e47bfa0bf3f9031fb184"
 
-coffee-script@1.6.3:
+coffee-script@1.6.3, coffee-script@~1.6:
   version "1.6.3"
   resolved "https://registry.yarnpkg.com/coffee-script/-/coffee-script-1.6.3.tgz#6355d32cf1b04cdff6b484e5e711782b2f0c39be"
 
@@ -545,6 +545,12 @@ https-proxy-agent@^1.0.0:
 hubot-diagnostics@0.0.2:
   version "0.0.2"
   resolved "https://registry.yarnpkg.com/hubot-diagnostics/-/hubot-diagnostics-0.0.2.tgz#a042b2cdc9fd8f01583e105658130a6d8b9af386"
+
+hubot-giphy-gifme@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/hubot-giphy-gifme/-/hubot-giphy-gifme-0.2.0.tgz#d4e5b7907f13e64ba060e2b32fd056c85b6cd0fc"
+  dependencies:
+    coffee-script "~1.6"
 
 hubot-google-images@^0.2.7:
   version "0.2.7"

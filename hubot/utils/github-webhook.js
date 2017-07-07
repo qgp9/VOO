@@ -63,7 +63,7 @@ module.exports = (context, callback) => {
       attachments: [
         {
           color: '#4782C9',
-          text: `<${repo_url}|[${repo}:${branch}]> <${compare}|${nCommit} 의 커밋>이 **PUSH** 되었습니다. 와우~ :+1: by ${authorText}`,
+          text: `<${repo_url}|[${repo}:${branch}]> <${compare}|${nCommit} 개의 커밋>이 **PUSH** 되었습니다. 와우~ :+1: by ${authorText}`,
           mrkdwn_in: ["text", "pretext"]
         }
       ]
